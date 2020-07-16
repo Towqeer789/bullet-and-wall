@@ -21,9 +21,9 @@ wall.shapeColor=color(230,230,230);
 
 
 function draw() {
-  background(255,255,255);  
+  background(55,55,55);  
  
-  if (hasColiided(car,wall)){
+  if (hasCollided(car,wall)){
 
     car.velocityX=0;
     var damage=0.5 * weight * speed * speed/(thickness * thickness * thickness);
